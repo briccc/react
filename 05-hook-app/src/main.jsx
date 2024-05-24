@@ -10,7 +10,8 @@ import ReactDOM from 'react-dom/client'
 //import { Layout } from './06-useLayoutEffect/Layout.jsx';
 //import { Memorize } from './06-memos/Memorize.jsx';
 //import { MemoHook } from './06-memos/MemoHook.jsx';
-import { CallbackHook } from './06-memos/CallbackHook.jsx';
+//import { CallbackHook } from './06-memos/CallbackHook.jsx';
+import { Padre } from './07-tarea-memo/Padre.jsx';
 
 
 import './index.css';
@@ -19,6 +20,6 @@ import './index.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   //<React.StrictMode>
     //<FormWCustomHook/>
-    <CallbackHook/>
+    <Padre/>
   //</React.StrictMode>,
 )
